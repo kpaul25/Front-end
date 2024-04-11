@@ -1,0 +1,148 @@
+
+.navbar-brand img{ /*setting height or width for logo*/
+  height: 50%;
+  width: 50%;
+}
+.nav-item a { /*color for navlink*/
+  color: black;
+}
+.nav-item a:hover { /* effect for navlink*/
+ 
+ color:#d9b7b0; /*text color*/
+}
+.btn{ /*custom effect for button*/
+  background-color: #d9b7b0; /*background color*/
+  color:white; /* Text color */
+  border-color:#d9b7b0; /* Border color */
+ 
+}
+.btn:hover{
+  background-color:White; 
+  color:#d9b7b0; /* Text color */
+  border-color:#d9b7b0; /* Border color */
+ 
+}
+.container h2{
+  font-family: Cursive;
+ color: #d9b7b0;
+}
+.image-container {
+    position: relative;
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  .btn-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0.5, 0.5); /* Semi-transparent black overlay */
+    z-index: 1; /* Ensure overlay is above the image */
+  }
+  .overlay-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .footer {
+    background-color: #f8f9fa; /* Set background color */
+    padding: 20px 0; /* Add padding top and bottom */
+  }
+  .footer-logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  .footer-content,
+  .quick-links {
+    text-align: right;
+  }
+  .quick-links a {
+    color: #333; /* Set link color */
+    margin-right: 15px; /* Add margin between links */
+  }
+
+  .btn-custom {
+    background-color: #d9b7b0; /* Your desired color */
+    color:white; /* Text color */
+    border-color:#d9b7b0; /* Border color */
+   
+  }
+  /* Hover effect */
+  .btn-custom:hover {
+    background-color:white; /* Darker shade of your color on hover */
+    color: #d9b7b0;
+    border-color: #d9b7b0; /* Darker shade of your color on hover */
+  }
+
+  #name {
+    border: 2px solid #d9b7b0; /* Set border color */
+    border-radius:10px;
+  }
+  #flogo img{
+    height: 50%;
+    width: 60%;
+  }
+  .footer-list h5{
+    color: black;
+    text-align: left;
+
+  }
+ .col-sm-4 ul li {
+  color: black;
+ }
+.footer-icon a i{
+  color: #d9b7b0;
+  font-size: 25px;
+}
+
+.footer-list ul li a{
+
+  color: black;
+  text-align: left;
+  text-decoration: none;
+
+}
+.footer-list ul li a:hover{
+  color: #d9b7b0;
+}
+
+
+/* BLOG PAGE */
+
+.faq-container {
+  display: flex;
+  
+}
+.faq {
+  flex: 1;
+  padding: 20px;
+}
+.image {
+  flex: 1;
+  padding: 20px;
+}
